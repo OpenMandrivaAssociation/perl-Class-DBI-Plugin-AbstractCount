@@ -18,6 +18,7 @@ BuildRequires:	perl-SQL-Abstract >= 1.1
 BuildRequires:  perl-Class-DBI-Plugin >= 0.02
 BuildRequires:	perl-Class-DBI >= 0.95
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This Class::DBI plugin combines the functionality from
