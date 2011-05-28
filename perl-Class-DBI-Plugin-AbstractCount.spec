@@ -17,6 +17,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl-SQL-Abstract >= 1.1
 BuildRequires:  perl-Class-DBI-Plugin >= 0.02
 BuildRequires:	perl-Class-DBI >= 0.95
+BuildRequires:	perl(Class::Accessor::Grouped)
 BuildArch: noarch
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}
 
