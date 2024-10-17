@@ -8,7 +8,7 @@ Release:	5
 Summary:	Get COUNT(*) results with abstract SQL
 License:	Artistic/GPL
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{upstream_name}/
+URL:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.bz2
 
 BuildRequires:	perl-devel
