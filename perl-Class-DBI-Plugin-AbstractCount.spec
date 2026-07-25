@@ -2,14 +2,14 @@
 %define upstream_version 0.08
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Get COUNT(*) results with abstract SQL
 License:	Artistic/GPL
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.bz2
+URL:		https://metacpan.org/dist/Class-DBI-Plugin-AbstractCount
+Source0:	https://cpan.metacpan.org/authors/id/J/JC/JCZEUS/Class-DBI-Plugin-AbstractCount-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
