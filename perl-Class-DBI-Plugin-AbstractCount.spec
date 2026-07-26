@@ -1,15 +1,13 @@
 %define upstream_name	 Class-DBI-Plugin-AbstractCount
-%define upstream_version 0.08
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	0.08
+Release:	7
 
 Summary:	Get COUNT(*) results with abstract SQL
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/Class-DBI-Plugin-AbstractCount
-Source0:	https://cpan.metacpan.org/authors/id/J/JC/JCZEUS/Class-DBI-Plugin-AbstractCount-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/J/JC/JCZEUS/Class-DBI-Plugin-AbstractCount-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -27,7 +25,7 @@ Class::DBI::AbstractSearch, which allows complex
 where-clauses a la SQL::Abstract.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -53,8 +51,7 @@ make test
 
 * Tue Jul 28 2009 Jérôme Quelin <jquelin@mandriva.org> 0.80.0-1mdv2011.0
 + Revision: 401705
-- rebuild using %%perl_convert_version
-- fixed license field
+- rebuild using %0.08 fixed license field
 
 * Fri Jul 03 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.08-1mdv2010.0
 + Revision: 391940
